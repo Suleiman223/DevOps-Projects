@@ -157,7 +157,6 @@ module.exports = router;
 * For the purposes of this project, allow access to the MongoDB database from anywhere.
 * Make sure you change the time of deleting the entry from 6 Hours to 1 Week
 * Create a MongoDB database and collection inside mLab
-![Project3pix10](https://user-images.githubusercontent.com/74002629/178157103-61393f4f-89da-4382-bdf1-425d50e5ae64.PNG)
 
 * Next, in the index.js file, we specified **process.env** to access environment variables, but we are yet to create the file. Now, create a file in the **Todo** directory and name it **.env** To do this type: 
 ```
