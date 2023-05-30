@@ -1,7 +1,7 @@
 # Web Stack Implementation
 
 ## WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
-### ASW account setup and provisioning an Ubuntu Server
+### AWS account setup and provisioning an Ubuntu Server
 #### Steps
 1. Signed up for an AWS account.
 2. Logged in as IAM user
@@ -10,7 +10,7 @@
 5. I selelected the Ubuntu free tier instance
 6. I set the required configurations (Enabled public IP, security group, and key pair) and finally launched the instance.
 7. Next I SSH into the instance using Windows Terminal
-8. In the Terminal, I typed cd Downloads to navigate to the locxcation of my key-pair.
+8. In the Terminal, I typed cd Downloads to navigate to the location of my key-pair.
 9. Inside the Downloads directory, I connect to my instance using its Public DNS.
 ![project1pix4](https://user-images.githubusercontent.com/74002629/174608684-dadf6c62-f32f-4abf-99bf-dd6078bcf279.PNG)
 ![project1pix5](https://user-images.githubusercontent.com/74002629/174608722-755ce47c-4c8e-475c-a399-43e314235364.PNG)
