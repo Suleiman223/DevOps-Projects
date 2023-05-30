@@ -17,9 +17,8 @@
 * Run the command below to verify that the Todo directory is created, run: `ls`
 * Next, change the current directory to the newly created one: `cd Todo`
 * Next, you will use the command npm init to initialise your project, so that a new file named package.json will be created. This file will normally contain information about your application and the dependencies that it needs to run. Run the command: `npm init` then follow the prompt and finally answer yes to write out the package file.
-![MERNpix3](https://user-images.githubusercontent.com/74002629/177170233-e1e5842c-d005-42e0-a98d-9024ccf9fcb1.PNG)
+
 * Run the command `ls` to confirm that you have package.json file created.
-![MERNpix4](https://user-images.githubusercontent.com/74002629/177170737-eb8054fc-1430-466c-a08f-6cfe408d3630.PNG)
 
 ##### INSTALL EXPRESSJS
 * To use express, install it using npm: `npm install express`
