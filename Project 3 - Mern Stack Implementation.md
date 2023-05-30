@@ -59,8 +59,7 @@ console.log(`Server running on port ${port}`)
 ![MERNpix7](https://user-images.githubusercontent.com/74002629/177172683-a6e0794f-e599-4e30-8ebf-159e3c2fddf0.PNG)
 
 * Next, open port 5000 in EC2 Security Groups and save changes.
-* Open a browser and access the server’s Public IP or Public DNS name followed by port 5000: `http://<PublicIP-or-PublicDNS>:5000`
-![MERNpix8](https://user-images.githubusercontent.com/74002629/177174585-ee179ca7-bda4-4ef4-a06e-f99a3d2529b1.PNG)
+* Open a browser and access the server’s Public IP or Public DNS name followed by port 5000: `http://<PublicIP-or-PublicDNS>:5000` ![dfdfa](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/c1193ce0-51d8-4268-9ff2-f45d05b5c3ad)
 
 ##### Routes
 * The To-Do application needs to be able to complete 3 actions:
@@ -244,7 +243,7 @@ console.log(`Server running on port ${port}`)
 
 * Navigate to the Todo directory and run: **npm run dev** The app should open and start running on localhost:3000
 ![Project3pix17](https://user-images.githubusercontent.com/74002629/178157411-9c42cf2a-e341-4354-adb4-877143615238.PNG)
-![Project3pix18](https://user-images.githubusercontent.com/74002629/178157412-47c64568-4685-454c-a487-0f579a5118d9.PNG)
+![DSJDBBS](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/298c6e14-76e5-4439-b241-7ae4c32fe7e9)
 
 * To access the application from the Internet you have to open TCP port 3000 on EC2 by adding a new Security Group rule.
 
@@ -534,7 +533,7 @@ monospace;
 ![Project3pix23](https://user-images.githubusercontent.com/74002629/178183189-a96c8436-e168-4625-a06e-ed2a9c229150.PNG)
 
 * Assuming no errors when saving all these files, our To-Do app should be ready and fully functional with all the functionality working: creating a task, deleting a task and viewing all your tasks.
-![Project3pix24](https://user-images.githubusercontent.com/74002629/178183198-07a6fa06-a735-4473-9df3-5ec427474a0e.PNG)
+![sbhsaD](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/17d3d108-b172-498f-9fd4-92d8d42f2da8)
 
 
 
