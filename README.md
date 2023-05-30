@@ -4,7 +4,7 @@
 ## This repository contains most of the real-life projects I carried out during my DevOps career journey
 
 # Table Of Contents
-## Project 1: SETTING UP A LAMP STACK WEB SERVER IN THE AWS CLOUD
+## Project 1: SETTING UP A LAMP STACK WEB SERVER IN THE AWS CLOUD [Project 1](https://github.com/Suleiman223/DevOps-Projects/blob/main/Project%201-Web%20Stack%20Implementation.md)
 
 ## Project 2: SETTING UP A LEMP STACK WEB SERVER ON AWS CLOUD
 
