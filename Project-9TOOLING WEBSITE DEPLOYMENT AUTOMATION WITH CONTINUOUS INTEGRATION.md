@@ -58,7 +58,6 @@ Then add webhook
 2. Go to Jenkins web console, click **New Item** and create a **Freestyle project** and click OK
 3. Connect your GitHub repository, copy the repository URL from the repository
 4. In configuration of your Jenkins freestyle project under Source Code Management select **Git repository**, provide there the link to your Tooling GitHub repository and credentials (user/password) so Jenkins could access files in the repository.
-![pix9](https://user-images.githubusercontent.com/74002629/184093372-97bdd653-2fc2-4940-9d19-4eff2386f370.PNG)
 
 5. Save the configuration and let us try to run the build. For now we can only do it manually.
 6. Click **Build Now** button, if you have configured everything correctly, the build will be successfull and you will see it under **#1**
