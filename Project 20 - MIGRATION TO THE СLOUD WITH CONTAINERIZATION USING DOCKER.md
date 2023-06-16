@@ -21,7 +21,7 @@ docker-ce:
         500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
 ```
 7. Finally, install Docker: `sudo apt install docker-ce`
-8. Check that that Docker is running: `sudo systemctl status docker`
+8. Check that Docker is running: `sudo systemctl status docker`
 9. Your output should show that Docker is active.
 10. To get more information about installing Docker on Ubuntu 20.04, check this [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 #### STEP 2 Create SQL Container and Connect to the container.
@@ -35,13 +35,13 @@ docker-ce:
 ![pix5](https://user-images.githubusercontent.com/74002629/208448222-d846880f-222c-4ee0-aa50-c44ed8f282f5.PNG)
 6. Create an SQL script that to create a user that will connect remotely. Create a file and name it ****create_user.sql**** and add code in the file:
 ```
-CREATE USER 'cynthia'@'%' IDENTIFIED BY 'sulemanpw';
+CREATE USER 'suleman'@'%' IDENTIFIED BY 'sulemanpw';
 GRANT ALL PRIVILEGES ON *.* TO 'suleman'@'%';
 
 CREATE DATABASE toolingdb;
 ```
 The script also creates a database for the Tooling web application.
-![pix6](https://user-images.githubusercontent.com/74002629/208448548-843a4e08-f288-4db2-a77b-3c237e13e5a4.PNG)
+
 
 7. Run the script, ensure you are in the directory create_user.sql file is located or declare a path:
  `sudo docker exec -i mysql-server mysql -uroot -p$MYSQL_PW < create_user.sql`
