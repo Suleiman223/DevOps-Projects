@@ -22,12 +22,14 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
   * First we add our MongoDB key server with: `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6`
   * Add repository: `echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list`
   * Install MongoDB with the following comand: `sudo apt install -y mongodb`
-  
- ![cccccc](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/4f1c6b24-a5cf-478b-8d72-0951c3ae8105)
+
+  ![hsjkhf](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/bc77a82a-f840-4215-8316-c52c29765b9e)
+
   
   * Verify Server is up and running: `sudo systemctl status mongodb`
-  
-  ![ddddd](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/622a7a96-312a-40ae-b416-1600168a9a32)
+
+  ![dkaksds](https://github.com/Suleiman223/DevOps-Projects/assets/116959775/5f44e020-0576-4f71-b5d8-bc777bdfa7ae)
+
   
   * Install npm – Node package manager: `sudo apt install -y npm`
   * Next we install body-parser package to help with processing JSON files passed in requests to the server. Use the following command: `sudo npm install body-parser`
