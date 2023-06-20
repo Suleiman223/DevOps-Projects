@@ -142,7 +142,7 @@ pipeline {
 
       stage('Checkout SCM') {
          steps{
-            git branch: 'main', url: 'https://github.com/cynthia-okoduwa/ansible-config-mgt.git'
+            git branch: 'main', url: 'https://github.com/Suleiman223/ansible-config-mgt.git'
          }
        }
 
@@ -282,7 +282,7 @@ pipeline {
 
     stage('Checkout SCM') {
       steps {
-            git branch: 'main', url: 'https://github.com/cynthia-okoduwa/php-todo.git'
+            git branch: 'main', url: 'https://github.com/Suleiman223/php-todo.git'
       }
     }
 
