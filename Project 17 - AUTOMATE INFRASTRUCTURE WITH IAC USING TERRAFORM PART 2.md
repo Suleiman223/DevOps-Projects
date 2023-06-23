@@ -1,5 +1,5 @@
 ## AUTOMATE INFRASTRUCTURE WITH IAC USING TERRAFORM PART 2
-In continuation to [Project16](https://github.com/cynthia-okoduwa/DevOps-projects/blob/main/project16.md), in this project we continue to create the other resources in our architecture. The resources we will be creating includes:
+in this project we continue to create the other resources in our architecture. The resources we will be creating includes:
 1. For Networking, in addition to the VPC and 2 public subnets created in project 16, we will also create:
 - 4 private subnets
 - Internet gateway
